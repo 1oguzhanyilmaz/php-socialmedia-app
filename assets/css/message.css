@@ -1,0 +1,22 @@
+/* --- MESSAGE SAYFAI mesajlar --- */
+.message{ border: 1px solid black; border-radius: 10px; display: inline-block; padding: 5px 10px; color: white; }
+.message#blue{ background-color: #6496eb; border-color: #7171d0; float: left;margin-bottom: 5px; }
+.message#green{ background-color: #46cc42; border-color: #27630a; float: right; margin-bottom: 5px; }
+
+/* --- MESSAGE SAYFAI 2 kisi arasi mesajlarin yuklenmesi --- */
+.loaded_messages{ height: 70%; min-height: 300px; max-height: 400px; overflow: scroll; margin-bottom: 10px; }
+
+/* --- MESSAGE SAYFAI SOL KISIM SOHBETLER Linki --- */
+.sol-sohbet a:link { text-decoration: none; }
+.sol-sohbet a:visited { text-decoration: none; }
+.sol-sohbet a:hover { text-decoration: none; }
+.sol-sohbet a .blockquote:hover { color: #6a9ef2; font-size: 22px;}
+.sol-sohbet a:active { text-decoration: none; }
+
+
+/* --- MESSAGE SAYFAI SAG KISIM NEW MESSAGE--- */
+.results a{ color:#000; }
+.results a:hover{ text-decoration: none; }
+.results a .media:hover{ color:#6a9ef2; background-color: #f8f9fa; }
+
+/* --- notification messages --- */
